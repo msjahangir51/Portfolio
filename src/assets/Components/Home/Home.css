@@ -1,0 +1,152 @@
+.HomeBody{
+    width: 100%;
+    height: 100vh;
+    background-color: #191D28;
+    z-index: -8;
+    padding: 10rem 0;
+}
+.HomeMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+    flex: 0 0 45%;
+    flex-wrap: wrap;
+}
+
+
+.HomeMain .intro-text-Section h5{
+    font-size: 1.5rem;
+    color: #FFC965;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.HomeMain .intro-text-Section h5 svg{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.HomeMain .intro-text-Section h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.HomeMain .intro-text-Section h1 span{
+    color: #FFC965;
+}
+
+.HomeMain .intro-text-Section p{
+    font-size: 1.5rem;
+    width: 40rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+.HomeMain .intro-text-Section button{
+    background-color: #FFC965;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    color: #191D28;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    border-radius: 0.1rem;
+    border: 0.15rem solid #FFC965;
+    cursor: pointer;
+    transition: background-color 0.5s linear, color 0.2s ease-out;
+}
+
+.HomeMain .intro-text-Section button:hover{
+    background-color:transparent;
+    color: #FFC965;
+}
+.HomeMain .intro-img-section img{
+    width:30rem;
+    max-width:50rem;
+    object-fit:contain;
+}
+
+.HomeMain .intro-img-section .social{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomeMain .intro-img-section .social a{
+    font-size: 3rem;
+    color: #FFC965;
+    margin: 0 1.4rem;
+    display: inline-block;
+    transform: translateY(3rem);
+}
+
+/* responsive  */
+@media screen and (max-height:630px) {
+    .HomeBody{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .HomeMain .intro-text-Section h1{
+        font-size: 4.5rem;
+    }
+    .HomeMain .intro-text-Section button{
+        font-size: 1.2rem;
+    }
+    .HomeMain .intro-text-Section p{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:936px) {
+    .HomeMain .intro-img-section img{
+        width: 25rem;
+    }
+    .HomeMain .intro-text-Section h1{
+        font-size: 4.2rem;
+    }
+}
+
+@media screen and (max-width:808px) {
+    .HomeBody{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:726px) {
+    .HomeMain{
+        flex-direction: column;
+        row-gap: 6rem;
+    }
+    .HomeMain .intro-text-Section{
+        padding: 0 2rem;
+    }
+    .HomeMain .intro-text-Section h1{
+        font-size: 3.7rem;
+    }
+    .HomeMain .intro-text-Section p{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:526px) {
+    .HomeMain .intro-text-Section h5{
+        font-size: 1.4rem;
+    }
+    .HomeMain .intro-text-Section h1{
+        font-size: 2.4rem;
+    }
+
+    .HomeMain .intro-text-Section p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .HomeMain .intro-text-Section button{
+
+    }
+}
+/* end of responsive */

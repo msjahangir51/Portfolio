@@ -1,0 +1,32 @@
+[
+    {
+        "icons" :"fa-brands fa-uikit",
+        "title" : "Ui UX Desing",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    },
+    {
+        "icons" :"fa-brands fa-dev",
+        "title" : "IOS APP Design",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    },
+    {
+        "icons" :"fa-solid fa-camera",
+        "title" : "PhotoGraphy",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    },
+    {
+        "icons" :"fa-brands fa-uikit",
+        "title" : "Ui UX Desing",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    },
+    {
+        "icons" :"fa-brands fa-dev",
+        "title" : "IOS APP Design",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    },
+    {
+        "icons" :"fa-solid fa-camera",
+        "title" : "PhotoGraphy",
+        "desc" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic dolor veniam quis nulla labore facilis ipsa"
+    }
+]

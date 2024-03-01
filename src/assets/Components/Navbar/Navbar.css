@@ -1,0 +1,110 @@
+.navbarNav{
+    width: 100%;
+    padding: 1.5rem 4rem;
+    color: #fff;
+    background-color: #191D28;
+    z-index: 100;
+    /* position: fixed; */
+}
+body.active{
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav{
+    display: flex;
+    column-gap: 3rem;
+}
+.navbar .logo{
+    font-size: 3rem;
+    color: #FFC965;
+    letter-spacing: 0.2rem;
+}
+
+.Navbars{
+    display: none;
+}
+.navbar .nav li a{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;;
+    display: flex;
+    position: relative;
+}
+.navbar .nav li a::after{
+    content: " ";
+    position: absolute;
+    bottom: -0.6rem;
+    width: 0;
+    height: 0.2rem;
+    background-color: #FFC965;
+    transition: width 0.4s ease;
+}
+
+.navbar .nav li a:hover::after{
+    width: 100%;
+}
+.navbar .nav li a.active{
+    color: #FFC965;
+    position: relative;
+}
+
+.navbar .nav li a.active::after{
+    content: " ";
+    position: absolute;
+    bottom: -0.6rem;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #FFC965;
+}
+
+@media screen and (max-width:1066px) {
+    .navbar .nav li a{
+        font-size: 1.45rem;
+    }
+    .navbar .nav{
+        column-gap: 2rem;
+    }
+    .navbar .logo{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .navbar .nav li a{
+        font-size: 1.34rem;
+    }
+    .navbar .logo{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width:688px) {
+    .Navbars{
+        display: block;
+    }
+
+    .navbar .nav{
+        position: fixed;
+        flex-direction: column;
+        top: 5rem;
+        left: -100%;
+        width: 20rem;
+        background-color: #191D28;
+        border-right: 0.3rem solid #ffffff4f;
+        padding: 2rem 6rem;
+        height: 100vh;
+        transition: left 0.6s;
+    }
+
+    .navbar .nav{
+        row-gap: 3rem;
+    }
+    .navbar .nav.active{
+        left: 0;
+    }
+}

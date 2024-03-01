@@ -1,0 +1,116 @@
+.ResumeBody{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: #161922;
+    color: #fff;
+    padding: 5rem 3rem;
+}
+
+.ResumeBody .resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ResumeBody .resume .resumeText h1{
+    font-size: 2.5rem;
+    color: #FFC965;
+}
+.ResumeBody .resume .resumeText p{
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 1rem auto;
+    
+}
+.ResumeBody .resumeText{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.Resume_Row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Resume_Row .col{
+    padding: 2rem;
+    flex-basis: 40%;
+    height: 40rem;
+}
+
+.Resume_Row .col h1{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.Resume_Row .col h1 svg{
+    margin-right: 1rem;
+}
+.Resume_Row .col p.desc{
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+.Resume_Row .col div p{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+}
+
+.Resume_Row .col div span{
+    font-size: 1.2rem;
+}
+
+.Resume_Row .col ul li{
+    font-size: 1.7rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.Resume_Row .col ul li svg{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: #FFC965;
+}
+@media screen and (max-width:942px) {
+    .Resume_Row .col{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:716px) {
+    .Resume_Row .col h1{
+        font-size: 2rem;
+    }
+    .Resume_Row {
+        flex-direction: column;
+    }
+    .Resume_Row .col{
+        margin: 2rem 0;
+        flex-basis: 90%;
+    }
+    .ResumeBody .resume .resumeText p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:434px) {
+    .Resume_Row .col{
+        padding: 1rem 2rem;
+    }
+    .ResumeBody{
+        padding: 4rem 0;
+    }
+    .ResumeBody .resume .resumeText p{
+        text-align: justify;
+        width: 90%;
+    }
+    .ResumeBody .resume .resumeText p::first-letter{
+        margin-left: 1rem;
+    }
+}
