@@ -14,7 +14,7 @@ function ProtfolioBody() {
   return (
     <div className='ProtfolioBody'>
         <div className="conteinar ProtfolioMain">
-            <div className='  '>
+            <div className='ProtfolioText'>
                 <h1>Featured Works</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore, quia id nisi incidunt unde ipsam. Impedit, ducimus!</p>
             </div>
